@@ -291,6 +291,7 @@
     padding: 20px;
     padding-bottom: 40px;
     text-align: center;
+    position: relative;
   }
 
   .footer-bottom p {
@@ -334,13 +335,30 @@
   color: #27bcda;
   }
 
-  @media (max-width:500px) {
-  .footer-menu ul {
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 20px; }
+  @media screen and (max-width:500px) {
+    .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px; }
   }
+
+  @media screen and (max-width:1100px) {
+    .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px; }
+  }
+
+  @media screen and (max-width:768px) {
+    .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px; }
+    }
+
   /* FOOTER END */
 
 
